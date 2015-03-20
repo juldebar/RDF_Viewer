@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<ViewContext version="1.0.0"
+             id="wqm_loc"
+             xmlns="http://www.opengis.net/context"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengeospatial.net/context/1.0.0/context.xsd">
+	<General>
+		<Window width="500" height="300" />
+		<BoundingBox SRS="EPSG:4326" minx="-67.7" miny="47" maxx="-52" maxy="60"/>
+		<Title>Water Quality Monitoring Locations</Title>
+		<KeywordList>
+			<Keyword>Water</Keyword>
+			<Keyword>Quality</Keyword>
+
+			<Keyword>Monitoring</Keyword>
+		</KeywordList>
+		<Abstract>This is a view of water quality monitoring locations in Newfoundland and Labrador, Canada</Abstract>
+		<LogoURL width="150" height="75" format="image/png">
+			<OnlineResource xlink:type="simple" xlink:href="http://cgdi-dev.geoconnections.org/prototypes/owsview/graphics/cgdi.png"/>
+		</LogoURL>
+		<DescriptionURL format="text/html">
+			<OnlineResource xlink:type="simple" xlink:href="http://www.cgdi.ca/"/>
+
+		</DescriptionURL>
+		<ContactInformation>
+			<ContactPersonPrimary>
+				<ContactPerson>Tom Kralidis</ContactPerson>
+				<ContactOrganization>self</ContactOrganization>
+			</ContactPersonPrimary>
+			<ContactPosition>Systems Scientist</ContactPosition>
+
+			<ContactAddress>
+				<AddressType>postal</AddressType>
+				<Address>xx xxxxxxxx xxxxx</Address>
+				<City>Toronto</City>
+				<StateOrProvince>Ontario</StateOrProvince>
+				<PostCode>xxx xxx</PostCode>
+
+				<Country>Canada</Country>
+			</ContactAddress>
+			<ContactVoiceTelephone>+01-416-xxx-xxxx</ContactVoiceTelephone>
+			<ContactFacsimileTelephone>+01-416-xxx-xxxx</ContactFacsimileTelephone>
+			<ContactElectronicMailAddress>tomkralidis at hotmail dot com</ContactElectronicMailAddress>
+		</ContactInformation>
+	</General>
+
+	<LayerList>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>wa_7.5m</Name>
+			<Title>Water areas (1:7 500 000)</Title>
+			<Abstract>The surface area of oceans, lakes and large rivers intended for display at the scale of 1:7 500 000.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>roc_7.5m</Name>
+			<Title>Regions outside Canada (1:7 500 000)</Title>
+
+			<Abstract>Land areas outside Canada intended for display at the scale of 1: 7 500 000.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+
+			<Name>roads_7.5m</Name>
+			<Title>Road network (1:7 500 000)</Title>
+			<Abstract>Road network and ferry routes intended for display at the scale of 1:7 500 000.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>drain_7.5m</Name>
+			<Title>Drainage (1:7 500 000)</Title>
+			<Abstract>Coastlines, rivers and lakes shorelines intended for display at the scale of 1:7 500 000.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>can_7.5m</Name>
+			<Title>Landmass outline (1:7 500 000)</Title>
+
+			<Abstract>The outline of the landmasss of Canada</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+
+			<Name>int_bounds</Name>
+			<Title>Boundaries</Title>
+			<Abstract>Canadian International boundaries and offshore limits.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>nat_bounds</Name>
+			<Title>Provincial and Territorial Boundaries</Title>
+			<Abstract>Provincial and territorial boundaries</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+			<Name>places_labels_7.5m</Name>
+			<Title>Populated Places (labels 1:7.5M)</Title>
+
+			<Abstract>Selection of Canadian populated places in four classes based on 1991 Census data. It is intended for display at 1:7 500 000.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+		</Layer>
+		<Layer queryable="1" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Atlas of Canada WMS">
+				<OnlineResource xlink:type="simple" xlink:href="http://atlas.gc.ca/cgi-bin/atlaswms_en"/>
+			</Server>
+
+			<Name>cap_labels</Name>
+			<Title>Capitals (Canada)</Title>
+			<Abstract>National, provincial and territorial capital name labels.</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+			<FormatList>
+				<Format current="1">image/gif</Format>
+
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+				<Style current="1">
+					<Name>default</Name>
+					<Title>default</Title>
+				</Style>
+			</StyleList>
+
+		</Layer>
+		<Layer queryable="1" hidden="0">
+			<Server service="OGC:WMS" version="1.1.1" title="ENVIRODAT - Atlantic Region Water Quality Chemistry Database">
+				<OnlineResource xlink:type="simple" xlink:href="http://map.ns.ec.gc.ca/envdat/map.aspx"/>
+			</Server>
+			<Name>envirodat</Name>
+			<Title>Water Quality Monitoring Locations</Title>
+			<Abstract>ENVIRODAT is a repository of water quality information including chemical, physical, biological, and selected hydrometric data which are stored for surface, groundwater, wastewater, precipitation and various other water types</Abstract>
+			<SRS>EPSG:42101 EPSG:42304 EPSG:4269 EPSG:4326 EPSG:2294 EPSG:2295 EPSG:26922 EPSG:26921 EPSG:26920 EPSG:26919 EPSG:26918 EPSG:26917 EPSG:26916 EPSG:26915 EPSG:26914 EPSG:26913 EPSG:26912 EPSG:26911 EPSG:26910 EPSG:26909 EPSG:26908 EPSG:26907 EPSG:26722 EPSG:26721 EPSG:26720 EPSG:26719 EPSG:26718 EPSG:26717 EPSG:26716 EPSG:26715 EPSG:26714 EPSG:26713 EPSG:26712 EPSG:26711 EPSG:26710 EPSG:26709 EPSG:26708 EPSG:26707 EPSG:2295 EPSG:2294</SRS>
+
+			<FormatList>
+				<Format current="1">image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/wbmp</Format>
+			</FormatList>
+			<StyleList>
+
+				<Style current="1">
+					<Name>default</Name>
+					<Title>Default</Title>
+					<LegendURL width="20" height="20" format="image/png">
+						<OnlineResource xlink:type="simple" xlink:href="http://map.ns.ec.gc.ca/envdat/map.aspx?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=envirodat&amp;format=image/png"/>
+					</LegendURL>
+				</Style>
+			</StyleList>
+		</Layer>
+	</LayerList>
+</ViewContext>

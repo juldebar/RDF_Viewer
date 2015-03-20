@@ -1,0 +1,24 @@
+		<result-type name="JSONResult" class="org.ird.crh.ecoscope.kb.strutsresults.JSONResult"/>
+		
+		
+		<action name="ShowAdministration" class="org.ird.crh.ecoscope.kb.strutsactions.ShowAdministration">
+			<result>/webpages/templates/show_administration.jsp</result>
+			<result name="error">/webpages/templates/show_error.jsp</result>
+		</action>
+		
+		<action name="ShowTests" class="org.ird.crh.ecoscope.kb.strutsactions.ShowTests">
+			<result>/webpages/templates/show_tests.jsp</result>
+			<result name="error">/webpages/templates/show_error.jsp</result>
+		</action>
+		
+      	<action name="GetResourceEditor" class="org.ird.crh.ecoscope.kb.strutsactions.ajax.GetResourceEditor">
+           <result>/webpages/blocks/ajax/resource_editor.jsp</result>
+        </action>
+            
+        <action name="UpdateResource" class="org.ird.crh.ecoscope.kb.strutsactions.UpdateResource">
+        	<result>/webpages/templates/index.jsp</result>
+        </action>
+        
+        <action name="GetNewStatementEditor" class="org.ird.crh.ecoscope.kb.strutsactions.ajax.GetNewStatementEditor">
+			<result>/webpages/blocks/ajax/new_statement_editor.jsp</result>
+		</action>

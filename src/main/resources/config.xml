@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<eco:configuration xmlns:eco="http://www.ecoscope.org/config/kbconfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ecoscope.org/config/dbplugin/kbconfig.xsd ">
+	<!-- ######## -->
+	<!-- Metadata -->
+	<!-- ######## -->
+	
+	<eco:fileVersion>1</eco:fileVersion>
+	<eco:name>Semantic Atlas configuration</eco:name>
+	<eco:comment>This is the configuration file of the Semantic Atlas application</eco:comment>
+	
+	<!-- #################### -->
+	<!-- System configuration -->
+	<!-- #################### -->
+	
+	<eco:debug>false</eco:debug>
+	<eco:app_context>/semantic-atlas</eco:app_context>
+	<eco:langages_priority>en;fr</eco:langages_priority>
+	<eco:administration_password>deveco!!</eco:administration_password>
+	<eco:labels_management_mode>bestfit</eco:labels_management_mode>	<!-- (dedicated;bestfit) -->
+
+	<eco:jpg_quality>0.60</eco:jpg_quality> <!-- A value between 0.10 and 1.00 -->
+	<eco:autocompleter_max_results>20</eco:autocompleter_max_results> <!-- 0 for no limit -->
+	
+	<!-- ###################### -->
+	<!-- Semantic atlas queries -->
+	<!-- ###################### -->
+
+	<!--<eco:endpoint_location>http://62.217.127.128:8080/openrdf-workbench/repositories/TLOMarine/query</eco:endpoint_location>-->
+	<!--<eco:endpoint_location>http://62.217.127.128:8080/openrdf-workbench/repositories/TLOMarine/query?queryLn=SPARQL&amp;query=</eco:endpoint_location>-->
+	<!--<eco:endpoint_location>http://62.217.127.213:8080/openrdf-workbench/repositories/TLODataWarehouse/query?queryLn=SPARQL&amp;query=</eco:endpoint_location>-->
+	<eco:endpoint_location>http://62.217.127.213:8890/sparql?default-graph-uri=&amp;format=application/sparql-results+xml&amp;timeout=0&amp;query=</eco:endpoint_location>
+        
+	<!-- ######################## -->
+	<!-- Resources files location -->
+	<!-- ######################## -->
+	
+	<eco:files_locations>
+		<eco:file_location>
+			<!-- See Java regex rules here : http://download.oracle.com/docs/cd/E17476_01/javase/1.4.2/docs/api/java/util/regex/Pattern.html -->
+			<eco:regex>.*resources.*</eco:regex>
+			
+			<!-- Prefix to add before filenames -->
+			<!-- Use "C:\dir\dir" style under Windows or "/dir/dir" under Linux (example : /var/resources) -->
+			<!-- For an absolute path, start with C:\ or / (example : /var/resources) -->
+			<!-- For a relative path, start directly with the subdirectory name (example : web/resources) -->
+			<!-- For a relative path inside the user home, start with ~ (example : ~/ird_dev/resources_web_ecoscope)-->
+			<!-- If nothing should be added (i.e. if the ontology contains absolute paths), put null (or NULL) (example : NULL)-->
+			<eco:base_path>/home/arnaud/ird_dev/resources_web_ecoscope</eco:base_path>
+			
+			<!-- Only for pictures auto resizing -->
+			<eco:originalSizeRequestKeyword>original</eco:originalSizeRequestKeyword>
+			<eco:sizeSpecificString>/original_size/</eco:sizeSpecificString>
+		</eco:file_location>
+	</eco:files_locations>
+
+</eco:configuration>

@@ -1,0 +1,89 @@
+OpenLayers block documentation
+------------------------------
+
+1) include one of the following files in the head block of your page :
+	a) <s:include value="/webpages/blocks/openlayers/openlayers_head_01.jsp"/> : This head block displays :
+		* the spatial layers related to a resource,
+		* or the layer it represents if the given resource is a layer itself,
+		* or the layers as individuals related to a given class,
+		* [TODO] or the WMC layer it represents if the given resource is a WMC layer itself,
+	  It needs ShowResource action to be executed first.
+	  Used on : Resources sheets, atlas.
+	  
+	b) <s:include value="/webpages/blocks/openlayers/openlayers_head_02.jsp"/> : This head block displays
+	  the base layers only (lizardtech modis), plus an area selection tools.
+	  It is self-sufficient.
+	  Used on : Advanced search page.
+	  
+	c) <s:include value="/webpages/blocks/openlayers/openlayers_head_03.jsp"/> : This head block displays
+	  the base layers only (metacarta), plus an area selection tools.
+	  It is self-sufficient.
+	  Used on : Spatialized trophic network.
+	
+	d) <s:include value="/webpages/blocks/openlayers/openlayers_head_04.jsp"/> : This head block displays a WMC resource
+	
+	e) <s:include value="/webpages/blocks/openlayers/openlayers_head_05.jsp"/> : This head block displays :
+		* the spatial layers related to a resource,
+		* or the layer it represents if the given resource is a layer itself,
+		* or the layers as individuals related to a given class,
+	  3 parameters inside the view enable to determine which type of layers should be displayed, and how (between WMC, WMS & KML).
+	  It needs ShowResource action to be executed first.
+	  Used on : Resources sheets, atlas.
+	  
+	f) <s:include value="/webpages/blocks/openlayers/openlayers_head_06.jsp"/> : This head block displays :
+		* the spatial layers related to a resource (WMC, WMS, KML),
+		* or the layers as individuals related to a given class,
+	  It needs ShowResource action to be executed first, with a resourceUri containing spatial objects.
+	  Used on : Resource as atlas.
+	  
+	g) <s:include value="/webpages/blocks/openlayers/openlayers_head_07.jsp"/> : This head block is designed for the welcome page
+
+2) include parameter [onload="init();"] in the body tag : <body onload="init();" >
+
+2) include <s:include value="/webpages/blocks/openlayers/openlayers_main_01.jsp"/> at the location you want the map appears
+
+3) include <s:include value="/webpages/blocks/openlayers/openlayers_meta_01.jsp"/> at the location you want the map's metadata appears
+
+
+--------------------------------
+| Google, Bing & Yahoo! layers |
+--------------------------------
+
+1) Include in the head :
+------------------------
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAnXOGf8EGeM1hJ3bHw5QkkxStgkKVR1VhTrZIB1QXDNq6q07WVhRxOLfWdO4XsIukciCrMQyOulRH9Q" type="text/javascript"></script>
+	<script src="http://api.maps.yahoo.com/ajaxymap?v=3.0&appid=euzuro-ompenlayers"></script>
+	<script src='http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.1'></script>
+
+2) Options for the map creation :
+---------------------------------
+		var options_sphmercator = {
+                projection: new OpenLayers.Projection("EPSG:900913"),
+                displayProjection: new OpenLayers.Projection("EPSG:4326"),
+                units: "m",
+                numZoomLevels: 10,
+                maxResolution: 156543.0339,
+                maxExtent: new OpenLayers.Bounds(-20037508, -20037508, 20037508, 20037508.34)
+        };
+
+		
+		map = new OpenLayers.Map('map', options);
+
+3) Include in the init() function :
+-----------------------------------
+	var gsat = new OpenLayers.Layer.Google("&#160;Google Satellite", {type:G_SATELLITE_MAP, 'sphericalMercator': true});
+    map.addLayer(gsat);
+    var gphy = new OpenLayers.Layer.Google("&#160;Google Physical", {type: G_PHYSICAL_MAP, 'sphericalMercator': true} );
+    map.addLayer(gphy);
+    var ghyb = new OpenLayers.Layer.Google("&#160;Google Hybrid", {type: G_HYBRID_MAP, 'sphericalMercator': true});
+    map.addLayer(ghyb);
+    
+    var ysat = new OpenLayers.Layer.Yahoo("&#160;Yahoo Satellite", {'type': YAHOO_MAP_SAT, 'sphericalMercator': true});
+   	map.addLayer(ysat);
+   	var yhyb = new OpenLayers.Layer.Yahoo("&#160;Yahoo Hybrid", {'type': YAHOO_MAP_HYB, 'sphericalMercator': true});
+	map.addLayer(yhyb);
+	
+    var veaer = new OpenLayers.Layer.VirtualEarth("&#160;Virtual Earth Aerial", {'type': VEMapStyle.Aerial, 'sphericalMercator': true});
+    map.addLayer(veaer);
+    var vehyb = new OpenLayers.Layer.VirtualEarth("&#160;Virtual Earth Hybrid", {'type': VEMapStyle.Hybrid, 'sphericalMercator': true});			
+	map.addLayer(vehyb);

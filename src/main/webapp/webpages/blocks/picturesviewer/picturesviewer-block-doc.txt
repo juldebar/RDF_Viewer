@@ -1,0 +1,3 @@
+Use :
+- picturesviewer_main_01 to display pictures behind a FOAF:depiction or FOAF:img property
+- picturesviewer_main_02 to display pictures which are directly in this resource, in a DC:identifier

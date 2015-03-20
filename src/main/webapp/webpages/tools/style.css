@@ -1,0 +1,326 @@
+.borderTop{
+    border-top:10px solid black;
+}
+
+.listHeight{
+    max-height: 112px;
+    height:auto;
+    overflow: auto;
+}
+
+//pending css
+#backbutton{
+    color:white !important;
+}
+
+#nav-bar .win-backbutton{
+    color:white;
+    border-color: white;
+}
+#header-container a.header-dropdown{
+    color:white;
+}
+
+#header-container h5{
+    color:white;
+}
+
+.win-commandring, a:active .win-commandring, .win-commandring, button:active .win-commandring{
+    color:white;
+    border-color: white;
+}
+
+a:hover .win-commandring, button:hover .win-commandring{
+    border:2px solid white !important;
+}
+
+.panorama .panorama-sections h2{
+    color:white;
+}
+
+#pivot-item-1 > h3{
+    color:white;
+}
+
+
+.middleTitleBand{
+    border-bottom: 1px dotted #808080;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    width:auto;
+}
+
+.leftTitleBand{
+    border-bottom: 1px dotted grey;
+    margin-bottom: 5px;
+}
+
+.contentMiddle{
+    padding-left: 10px;
+}
+
+
+/**************************/
+/*** override css base ***/
+/**************************/
+/*.panorama{
+    overflow-y:scroll;
+}*/
+
+//a voir pour la suite
+.metro .tile.square.image img{
+    max-height: 200% !important;
+    max-width: 200% !important;
+}
+
+.individualData{
+    cursor:pointer !important;
+}
+
+.span1{
+    background-color: white;
+}
+.span2{
+    background-color: white;
+}
+.span3{
+    background-color: white;
+}
+.span4{
+    background-color: white;
+}
+.span5{
+    background-color: white;
+}
+.span6{
+    background-color: white;
+}
+.span8{
+    background-color: white;
+}
+.span9{
+    background-color: white;
+}
+.navbar{
+    background-color: white;
+}
+
+body,html{
+    background-image: url('../../css/img/bluefin-tuna.png');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+.navbar{
+    margin:0 !important;
+}
+
+#pageContent{
+    height:80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*************/
+/* nice list */
+/*************/
+
+
+.niceList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.niceList > li {
+    //font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    cursor:pointer;
+}
+
+ul.niceList > li:last-child {
+    border: none;
+}
+
+ul.niceList > li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 100%;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+    font-size: 15px;
+    background: #f6f6f6;
+}
+
+
+
+
+
+
+/******************************/
+/**** timeline bdd ***********/
+/******************************/
+
+ul.events {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+ul.events li {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    background: #eee;
+    border: 1px solid #ddd;
+    color: #707070;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+}
+
+ul.events li em {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+ul.intervals {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+/* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
+ul.intervals li {
+    /*    background: #fff url(/images/1x1_eee.gif) repeat-x left 10%;*/
+    border-right: 1px solid #ccc;
+    color: #333;
+    float: left;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    width: 48.5%;
+}
+
+ul.intervals li.first {
+    border-left: 1px solid #ccc;
+}
+
+
+
+
+/********************/
+/*** loader ********/
+/******************/
+#loadingProgressG{
+    width: 256px;
+    height: 20px;
+    overflow: hidden;
+    background-color: #FF6E14;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 20%;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+
+}
+
+.loadingProgressG{
+    background-color:#FFFFFF;
+    margin-top:0;
+    margin-left:-256px;
+    -moz-animation-name:bounce_loadingProgressG;
+    -moz-animation-duration:1.3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -webkit-animation-name:bounce_loadingProgressG;
+    -webkit-animation-duration:1.3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -ms-animation-name:bounce_loadingProgressG;
+    -ms-animation-duration:1.3s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-timing-function:linear;
+    -o-animation-name:bounce_loadingProgressG;
+    -o-animation-duration:1.3s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-timing-function:linear;
+    animation-name:bounce_loadingProgressG;
+    animation-duration:1.3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    width:256px;
+    height:20px;
+}
+
+@-moz-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-256px;
+    }
+
+    100%{
+        margin-left:256px;
+    }
+
+}
+
+@-webkit-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-256px;
+    }
+
+    100%{
+        margin-left:256px;
+    }
+
+}
+
+@-ms-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-256px;
+    }
+
+    100%{
+        margin-left:256px;
+    }
+
+}
+
+@-o-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-256px;
+    }
+
+    100%{
+        margin-left:256px;
+    }
+
+}
+
+@keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-256px;
+    }
+
+    100%{
+        margin-left:256px;
+    }
+
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.multipart.maxSize" value="10000000" />
+    <constant name="struts.url.includeParams" value="none" />
+    <constant name="struts.locale" value="en_EN" />
+
+    <package name="default" extends="struts-default json-default">
+        <result-types>
+            <result-type name="BytesResult" class="org.ird.crh.atlas.result.BytesResult" />
+        </result-types>
+        
+        <interceptors>
+            <interceptor name="MyI18nInterceptor" class="org.ird.crh.common.interceptor.MyI18nInterceptor">
+            </interceptor>
+            <interceptor-stack name="myStack">
+                    <interceptor-ref name="defaultStack" />
+                    <interceptor-ref name="MyI18nInterceptor" />
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="myStack"></default-interceptor-ref>
+
+        <action name="GetFile" class="org.ird.crh.atlas.action.GetFile">
+            <result name="success" type="BytesResult">
+            </result>
+        </action>
+        
+        <action name="ShowWebLinks" class="org.ird.crh.atlas.action.ShowSimplePage">
+            <result>/webpages/templates/show_web_links.jsp</result>
+        </action>
+        
+        <action name="ShowContacts" class="org.ird.crh.atlas.action.ShowSimplePage">
+            <result>/webpages/templates/show_contacts.jsp</result>
+        </action>
+
+        <action name="ShowWelcomePage">
+            <result type="redirectAction" name="success">
+                <param name="actionName">ShowResource</param>
+                <param name="namespace">/</param>
+                <param name="view">index</param>
+            </result>
+        </action>
+        
+        <!--<action name="ProcessSearch" class="org.ird.crh.atlas.action.ProcessSearch">
+            <result type="redirectAction" name="success">
+                <param name="actionName">ShowResource</param>
+                <param name="namespace">/</param>
+                <param name="uri">${uri}</param>
+                <param name="view">${view}</param>
+            </result>
+            <result name="input">/webpages/templates/show_error.jsp</result>
+        </action>-->
+        
+        <action name="permalink">
+            <result name="success">/webpages/home/test.jsp</result>
+        </action>
+        
+        <action name="mdstGetScript">
+            <result name="success">/webpages/home/testMDSTGet.jsp</result>
+        </action>
+        
+        
+        <action name="ShowResource" class="org.ird.crh.atlas.action.ShowResource">
+            
+            <result name="index">/webpages/home/index.jsp</result>
+            
+            <result name="showIndividualElement">/webpages/templates/show_individual_element_atlas.jsp</result>
+            <result name="class###species-list-01">/webpages/templates/show-class-species-list-01.jsp</result>
+            <result name="individual###element-01">/webpages/templates/show-individual-element.jsp</result>
+            <result name="individual###informational-resource-01">/webpages/templates/show-individual-informational-resource.jsp</result>
+            
+            <!-- Errors management -->
+            <result name="input">/webpages/templates/show_error.jsp</result>
+            <result name="error">/webpages/templates/show_error.jsp</result>
+        </action>
+        
+        <action name="GetJson" class="org.ird.crh.atlas.action.GetJson">
+            <result type="json">
+                <param name="noCache">true</param>
+                <param name="excludeNullProperties">true</param>
+                <param name="root">json</param>
+            </result>
+        </action>
+        
+        
+        <action name="GetSparqlResult" class="org.ird.crh.atlas.action.GetSparqlResult">
+            <!-- home categories -->
+            <result name="home-result">/webpages/category/homeCategory.jsp</result>
+            <result name="indicatorsCategory-result">/webpages/category/indicatorCategory.jsp</result>
+            <result name="picturesCategory-result">/webpages/category/picturesCategory.jsp</result>
+            <result name="bddCategory-result">/webpages/category/bddCategory.jsp</result>
+            <result name="publicationCategory-result">/webpages/category/publicationCategory.jsp</result>
+            <result name="contactCategory-result">/webpages/category/contactCategory.jsp</result>
+            <result name="atlas-result">/webpages/category/atlasCategory.jsp</result>
+            
+            <result name="satCategory-result">/webpages/category/satCategory.jsp</result>
+            
+            <!-- individualData -->
+            <result name="bddIndividualData">/webpages/IndividualData/bddIndividualData.jsp</result>
+            <result name="pictureIndividualData">/webpages/IndividualData/pictureIndividualData.jsp</result>
+            <result name="contactIndividualData">/webpages/IndividualData/contactIndividualData.jsp</result>
+            <result name="publicationIndividualData">/webpages/IndividualData/publicationIndividualData.jsp</result>
+            <result name="indicateurIndividualData">/webpages/IndividualData/indicateurIndividualData.jsp</result>
+            <result name="speciesIndividualData">/webpages/IndividualData/speciesIndividualData.jsp</result>
+            <result name="satIndividualData">/webpages/IndividualData/satIndividualData.jsp</result>
+            
+            
+            
+            <!-- modal pending -->
+            <result name="subjectBddData">/webpages/modal/subjectBddIndiv.jsp</result>
+            <result name="publiContactData">/webpages/modal/publiContactIndiv.jsp</result>
+            <result name="imageHolder">/webpages/modal/imageHolder.jsp</result>
+            <result name="topicInterestData">/webpages/modal/topicInterestIndiv.jsp</result>
+            
+            <!-- subject list -->
+            <result name="subjectList">/webpages/listIndividualData/subjectList.jsp</result>
+            <result name="topicInterestList">/webpages/listIndividualData/topicInterestList.jsp</result>
+            <result name="publicationList">/webpages/listIndividualData/publicationList.jsp</result>
+            
+            
+            <!-- result count -->
+            <result name="countView">/webpages/IndividualData/homeCount.jsp</result>
+            
+            
+            <!-- sommaire dans la box de recherche -->
+            <result name="defaultLeftList">/webpages/searchBoxList/defaultLeftList.jsp</result>
+            <result name="bddListSearch">/webpages/searchBoxList/bddListSearch.jsp</result>
+            <result name="contactListSearch">/webpages/searchBoxList/contactListSearch.jsp</result>
+            <result name="indicatorListSearch">/webpages/searchBoxList/indicatorListSearch.jsp</result>
+            <result name="pictureListSearch">/webpages/searchBoxList/pictureListSearch.jsp</result>
+            <result name="publicationListSearch">/webpages/searchBoxList/publicationListSearch.jsp</result>
+            
+            
+            <!--<result name="simple-terms-column">/webpages/blocks/ajax/sparql-results/simple-terms-column-01.jsp</result>
+            <result name="simple-terms-inline">/webpages/blocks/ajax/sparql-results/simple-terms-inline-01.jsp</result>
+            <result name="linked-terms-inline">/webpages/blocks/ajax/sparql-results/linked-terms-inline-01.jsp</result>
+            <result name="persons-names-column">/webpages/blocks/ajax/sparql-results/persons-names-column-01.jsp</result>
+            <result name="worms">/webpages/blocks/ajax/sparql-results/worms-classification-01.jsp</result>
+            <result name="worms2">/webpages/blocks/ajax/sparql-results/worms-classification-atlas.jsp</result>
+            <result name="printTitle">/webpages/blocks/ajax/sparql-results/print-title.jsp</result>
+            <result name="dropdownViewer_01">/webpages/blocks/ajax/sparql-results/dropdownViewer_01.jsp</result>
+            <result name="dropdownViewer_02">/webpages/blocks/ajax/sparql-results/dropdownViewer_02.jsp</result>
+            <result name="dropdownViewer_03">/webpages/blocks/ajax/sparql-results/dropdownViewer_03.jsp</result>
+            <result name="highchart">/webpages/blocks/ajax/sparql-results/highchart.jsp</result>
+            <result name="openlayer">/webpages/blocks/ajax/sparql-results/openlayer.jsp</result>
+            <result name="species_title">/webpages/blocks/ajax/sparql-results/species_title.jsp</result>
+            
+            <result name="indicator_main">/webpages/blocks/ajax/sparql-results/indicator_main.jsp</result>
+            <result name="indicator_meta">/webpages/blocks/ajax/sparql-results/indicator_meta.jsp</result>
+            <result name="pictures_main_full">/webpages/blocks/ajax/sparql-results/pictures_main_full.jsp</result>
+            <result name="pictures_main_thumb">/webpages/blocks/ajax/sparql-results/pictures_main_thumb.jsp</result>-->
+            
+        </action>
+        
+        <action name="ShowWPS" class="org.ird.crh.atlas.action.ShowWPS">
+            <result name="success">/webpages/templates/show_wps.jsp</result>
+        </action>
+
+    </package>
+
+    <package name="example" namespace="/" extends="json-default">
+        <result-types>  
+            <result-type name="json" class="org.apache.struts2.json.JSONResult"/>   
+        </result-types>   
+            
+        <action name="GetSelectAutocompleterContent" method = "execute" class="org.ird.crh.atlas.action.GetSelectAutocompleterContent">
+            <result type="json">
+                <param name="root">jsonModel</param>
+            </result>
+        </action>
+    </package>
+</struts>
