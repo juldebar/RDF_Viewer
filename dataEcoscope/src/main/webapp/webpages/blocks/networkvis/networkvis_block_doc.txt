@@ -1,0 +1,12 @@
+Networkvis block
+----------------
+
+1) Just include <s:include value="/webpages/blocks/openlayers/openlayers_main_xx.jsp"/> at the location you want the network to appear
+
+Each "networkvis_main_xx.jsp" file corresponds to a SPARQL request:
+	- networkvis_main_01.jsp: Small. For an individual. Displays the resource, its surrounding resources and their classes.
+	- networkvis_main_02.jsp: Small. For an individual. Displays the resource and its surrounding resources.
+	- networkvis_main_03.jsp: Small. For a class. Displays the class and its (optional, direct & indirect) instances.
+	- networkvis_main_04.jsp: Medium. resourceURI independant. Displays all the foaf:Person(s) linked by:
+		* the Person class,
+		* their relationships.

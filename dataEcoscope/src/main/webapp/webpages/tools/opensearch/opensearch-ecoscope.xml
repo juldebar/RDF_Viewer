@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Ecoscope</ShortName>
+    <Description>Find anything on the Ecoscope website</Description>
+    <Developer>pascal.cauquil@ird.fr</Developer>
+    <SyndicationRight>open</SyndicationRight>
+    <AdultContent>false</AdultContent>
+    
+    <Image height="64" width="64" type="image/png">http://www.ecoscopebc.ird.fr/EcoscopeKB/webpages/tools/opensearch/ecoscope_icon.png</Image>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">http://www.ecoscopebc.ird.fr/EcoscopeKB/webpages/tools/opensearch/ecoscope_icon.ico</Image>
+    
+    <InputEncoding>
+        UTF-8
+    </InputEncoding>
+    
+    <Url method="get" type="text/html" 
+            template="http://www.ecoscopebc.ird.fr/EcoscopeKB/GetTabbedSearchResults.action?freeText={searchTerms}&amp;forcedView=multi%23%23%23opensearchHtml&amp;offset=0&amp;limit=1000"
+    />
+    
+    <Url method="get" type="application/rdf+xml" 
+            template="http://www.ecoscopebc.ird.fr/EcoscopeKB/GetTabbedSearchResults.action?freeText={searchTerms}&amp;forcedView=multi%23%23%23rdf&amp;offset=0&amp;limit=10"
+    />
+    
+    <Url method="get" type="application/rdf+xml" 
+            template="http://www.ecoscopebc.ird.fr/EcoscopeKB/GetOpensearchGenesiDec?freeText={searchTerms}"
+    />
+    
+    <Url method="get" type="application/rss+xml" 
+            template="http://www.ecoscopebc.ird.fr/EcoscopeKB/GetOpensearchRss?freeText={searchTerms}"
+    />
+</OpenSearchDescription>

@@ -1,0 +1,74 @@
+
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<ViewContext version="1.0.0"
+             id="wqm_loc"
+             xmlns="http://www.opengis.net/context"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengeospatial.net/context/1.0.0/context.xsd">
+	<General>
+		<Window width="500" height="300" />
+		<BoundingBox SRS="EPSG:4326" minx="-42.4261016845703" miny="-44.7545013427734" maxx="114.804901123047" maxy="21.1342010498047"/>
+		<Title>Locations of alepisaurus_ferox observations</Title>
+		<KeywordList>
+			<Keyword>alepisaurus_ferox</Keyword>
+			<Keyword>Observations</Keyword>
+			<Keyword>Tuna fisheries</Keyword>
+			<Keyword>Ecoscope information system</Keyword>
+		</KeywordList>
+		<Abstract>This is a view of alepisaurus_ferox observations locations related to data managed by UMR-EME, Ecoscope information system, www.ecoscope.org</Abstract>
+		<LogoURL width="150" height="75" format="image/png">
+			<OnlineResource xlink:type="simple" xlink:href="http://www.ecoscopebc.ird.fr/EcoscopeKB/ShowResource?resourceUri=http%3A%2F%2Fwww.ecoscope.org%2Fontologies%2Fecosystems%23alepisaurus_ferox"/>
+		</LogoURL>
+		<DescriptionURL format="text/html">
+			<OnlineResource xlink:type="simple" xlink:href="http://www.cgdi.ca/"/>
+		</DescriptionURL>
+		<ContactInformation>
+			<ContactPersonPrimary>
+				<ContactPerson>Julien Barde</ContactPerson>
+				<ContactOrganization>IRD</ContactOrganization>
+			</ContactPersonPrimary>
+			<ContactPosition>Information system manager</ContactPosition>
+			<ContactAddress>
+				<AddressType>Avenue Jean Monnet BP 171</AddressType>
+				<Address>Avenue Jean Monnet BP 171</Address>
+				<City>Toronto</City>
+				<PostCode>34203</PostCode>
+				<Country>France</Country>
+			</ContactAddress>
+			<ContactVoiceTelephone>+33 4 99 54 32 15</ContactVoiceTelephone>
+			<ContactFacsimileTelephone>+33 4 99 54 32 95</ContactFacsimileTelephone>
+			<ContactElectronicMailAddress>julien.barde@ird.fr</ContactElectronicMailAddress>
+		</ContactInformation>
+	</General>
+
+	<LayerList>
+
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.3.0" title="Seawif">
+				<OnlineResource xlink:type="simple" xlink:href="http://vmecoscope-mdweb2-dev.mpl.ird.fr:8080/constellation/WS/wms/default"/>
+			</Server>
+			<Name>seawif</Name>
+			<Title>seawif</Title>
+			<Abstract>Observations of seawif</Abstract>
+			<SRS>EPSG:4326</SRS>
+			<FormatList>
+				<Format current="1">image/png</Format>
+			</FormatList>
+		</Layer>
+
+		<Layer queryable="0" hidden="0">
+			<Server service="OGC:WMS" version="1.1.0" title="Ecoscope biodiversity observations">
+				<OnlineResource xlink:type="simple" xlink:href="http://vmecoscopesi.mpl.ird.fr/wms"/>
+			</Server>
+			<Name>alepisaurus_ferox</Name>
+			<Title>alepisaurus_ferox</Title>
+			<Abstract>Observations of swordfish</Abstract>
+			<SRS>EPSG:4326</SRS>
+			<FormatList>
+				<Format current="1">image/png</Format>
+			</FormatList>
+		</Layer>
+
+	</LayerList>
+</ViewContext>

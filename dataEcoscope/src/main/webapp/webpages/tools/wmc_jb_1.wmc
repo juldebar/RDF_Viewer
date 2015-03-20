@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<ViewContext version="1.0.0"
+             id="wqm_loc"
+             xmlns="http://www.opengis.net/context"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.opengis.net/context 
+http://schemas.opengeospatial.net/context/1.0.0/context.xsd">
+    <General>
+        <Window width="500" height="300" />
+        <BoundingBox SRS="EPSG:4326" minx="-17.3200016021729" 
+miny="-33.1174201965332" maxx="114.00008392334" maxy="24.7377834320068"/>
+        <Title>Locations of skj observations</Title>
+        <KeywordList>
+            <Keyword>skj</Keyword>
+            <Keyword>Observations</Keyword>
+            <Keyword>Tuna fisheries</Keyword>
+            <Keyword>Ecoscope information system</Keyword>
+        </KeywordList>
+        <Abstract>This is a view of skj observations locations related 
+to data managed by UMR-EME, Ecoscope information system, 
+www.ecoscope.org</Abstract>
+        <LogoURL width="150" height="75" format="image/png">
+            <OnlineResource xlink:type="simple" 
+xlink:href="http://www.ecoscopebc.ird.fr/EcoscopeKB/ShowResource?resourceUri=http%3A%2F%2Fwww.ecoscope.org%2Fontologies%2Fecosystems%23skj"/>
+        </LogoURL>
+        <DescriptionURL format="text/html">
+            <OnlineResource xlink:type="simple" 
+xlink:href="http://www.cgdi.ca/"/>
+        </DescriptionURL>
+        <ContactInformation>
+            <ContactPersonPrimary>
+                <ContactPerson>Julien Barde</ContactPerson>
+                <ContactOrganization>IRD</ContactOrganization>
+            </ContactPersonPrimary>
+            <ContactPosition>Information system manager</ContactPosition>
+            <ContactAddress>
+                <AddressType>Avenue Jean Monnet BP 171</AddressType>
+                <Address>Avenue Jean Monnet BP 171</Address>
+                <City>Toronto</City>
+                <PostCode>34203</PostCode>
+                <Country>France</Country>
+            </ContactAddress>
+            <ContactVoiceTelephone>+33 4 99 54 32 15</ContactVoiceTelephone>
+            <ContactFacsimileTelephone>+33 4 99 54 32 
+95</ContactFacsimileTelephone>
+           
+ <ContactElectronicMailAddress>julien.barde@ird.fr</ContactElectronicMailAddress>
+        </ContactInformation>
+    </General>
+
+    <LayerList>
+
+        <Layer queryable="0" hidden="0">
+            <Server service="OGC:WMS" version="1.1.0" title="Ecoscope 
+biodiversity observations">
+                <OnlineResource xlink:type="simple" 
+xlink:href="http://vmecoscopesi.mpl.ird.fr/wms"/>
+            </Server>
+            <Name>skj</Name>
+            <Title>skj</Title>
+            <Abstract>Observations of swordfish</Abstract>
+            <SRS>EPSG:4326</SRS>
+            <FormatList>
+                <Format current="1">image/png</Format>
+            </FormatList>
+        </Layer>
+
+    </LayerList>
+</ViewContext>

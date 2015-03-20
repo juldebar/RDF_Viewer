@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<kb:plugin xmlns:kb="http://www.ecoscope.org/config/dbplugin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ecoscope.org/config/dbplugin/dbplugin.xsd ">
+	<kb:name>Generic Spatial Database Plugin Configuration</kb:name>
+	
+	<kb:spatialDatabase>
+		<kb:dataSourceRdfUri>http://www.ecoscope.org/ontologies/resources#dbStomac</kb:dataSourceRdfUri>
+		<kb:connectionParams>
+			<kb:driver>org.postgresql.Driver</kb:driver>
+			<kb:uri>jdbc:postgresql://localhost/ecoscope_observations</kb:uri>
+			<kb:login>common_postgres</kb:login>
+			<kb:password>common</kb:password>
+		</kb:connectionParams>
+		
+		<kb:set>
+			<kb:subjectRdfUri>http://www.ecoscope.org/ontologies/ecosystems_def#Fish</kb:subjectRdfUri>
+			<kb:sql>SELECT DISTINCT rt.worms_aphia_id FROM fishing_operation fo, individual i, referential_taxonomy rt WHERE rt.taxon_id=i.taxon_id AND i.fop_id=fo.fop_id AND ST_Within(fo.fop_location, ST_GeomFromText( ? , ? ))</kb:sql>
+			<kb:matchingOwlProperty>org.ird.crh.ecoscope.jena.vocabulary.ECOSYSTEMS_DEF.wormsId</kb:matchingOwlProperty>
+			<!-- For direct uri matching: <kb:matchingOwlProperty>com.hp.hpl.jena.vocabulary.RDF.subject</kb:matchingOwlProperty> -->
+		</kb:set>
+	</kb:spatialDatabase>
+</kb:plugin>

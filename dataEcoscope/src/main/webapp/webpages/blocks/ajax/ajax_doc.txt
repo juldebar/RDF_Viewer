@@ -1,0 +1,5 @@
+GetSearchResults :
+------------------
+
+- search_results_01.jsp : Gisves a raw list of results, without any classification. This view does not need super classes to be inferred (faster).
+- search_results_01.jsp : Gisves a list of results, classified according to idividuals types. In order this view to work properly, all super classes of classes and individual must be inferred (slower).

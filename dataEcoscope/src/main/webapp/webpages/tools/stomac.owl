@@ -1,0 +1,1238 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ecoscope="http://localhost:8179/EcoscopeKB/ontologies/KB.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:sto="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#alepisaurus_ferox">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Alepisaurus ferox</rdfs:label>
+    <rdfs:label xml:lang="en">Alepisaurus ferox</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#remora_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Remora sp</rdfs:label>
+    <rdfs:label xml:lang="en">Remora sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sternopthychidae_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Sternopthychidae sp</rdfs:label>
+    <rdfs:label xml:lang="en">Sternopthychidae sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepis_atlantica">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Paralepis atlantica</rdfs:label>
+    <rdfs:label xml:lang="en">Paralepis atlantica</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelarchus_analis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Scopelarchus analis</rdfs:label>
+    <rdfs:label xml:lang="en">Scopelarchus analis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft">
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepis_atlantica"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cavolinia_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sarda_orientalis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#omosudis_lowei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myctophidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#neoanchisquilla_tuberculata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#coryphaena_equiselis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#grimalditeuthis_bonplandi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#carinaria_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lagocephalus_lagocephalus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thysanoteuthis_rhombus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#exocoetus_volitans"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cranchia_scabra"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#chiasmodon_niger"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#caranx_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lysiosquilla_tredecimendata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephidae_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sargocentron_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_large"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#alepisaurus_ferox"/>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#spirula_spirula"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vegetal"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myripristis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmus_argenteus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish"/>
+    <rdfs:label xml:lang="en">Yellowfin tuna</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vinciguerria_nimbaria"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#nealotus_tripes"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macarellus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#carapidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#walvitethis_rancureli"/>
+    <rdfs:label xml:lang="fr">Albacore</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brachysculus_crusculum"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#gempylus_serpens"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#katsuwonus_pelamis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#unknown_shrimps"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#haliphron_atlanticus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#tremoctopus_violaceus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelosaurus_hoedti"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_côtiers"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oplophorus_typus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#onychoteuthis_banksi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ctenopteryx_sicula"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombridae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argentinidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelarchus_analis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#psenes_arafurensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#moroteuthis_lonnbergii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#dactyloptena_orientalis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#canthidermis_maculatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestidiops_similis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestrolepis_intermedia"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_perspicillatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diodon_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sternopthychidae_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoplometopus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ostracion_cubicus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_squids"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#parapronoe_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argonauta_argo"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#mastigoteuthis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macrosoma"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phrosina_semilunata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thyrsites_atun"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pelagic_octopoda_sp1"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#auxis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#hyporhamphus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ancistrocheirus_lesueuri"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#crab_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#odontodactylus_scyllarus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#octopoteuthis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_lucidus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#monacanthidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oegopsida_ni"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oxyporhamphus_micropterus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#charybdis_smithii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scomberesox_saurus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#nansenia_macrolepis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brama_brama"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#remora_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#japetella_diaphana"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cheilopogon_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taonius_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#other"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myctophidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Myctophidae</rdfs:label>
+    <rdfs:label xml:lang="en">Myctophidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#electrona_risso">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Electrona risso</rdfs:label>
+    <rdfs:label xml:lang="en">Electrona risso</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephes_bartrami">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Ommastrephes bartrami</rdfs:label>
+    <rdfs:label xml:lang="en">Ommastrephes bartrami</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale">
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#alepisaurus_ferox"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#abraliopsis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#hoplosthetus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oplophorus_typus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scorpaenidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#chiasmodon_niger"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argyropelecus_sladeni"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#tremoctopus_violaceus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#crab_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_squids"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taaningia_danae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#moroteuthis_lonnbergii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cavolinia_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#parapronoe_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_hoylei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombridae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#haliphron_atlanticus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#salpes"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diodon_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#walvitethis_rancureli"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vinciguerria_nimbaria"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brama_brama"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brachysculus_crusculum"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vegetal"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoplometopus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#omosudis_lowei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#carinaria_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myctophidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phrosina_semilunata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#naso_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#exocoetus_volitans"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sternoptyx_diaphana"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#amphitretus_pelagicus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#odontodactylus_scyllarus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pelagic_octopoda_sp2"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ostracion_cubicus"/>
+    <rdfs:label xml:lang="fr">Hareng</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lagocephalus_lagocephalus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#japetella_diaphana"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pelagic_octopoda_sp1"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argyropelecus_gigas"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phronima_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#anoplogaster_cornuta"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argonauta_argo"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#charybdis_smithii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepis_atlantica"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#rynchonerella_angelini"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pholidoteuthis_boschmai"/>
+    <rdfs:label xml:lang="en">Herring</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#spirula_spirula"/>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#auxis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_large"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#canthidermis_maculatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pterycombus_petersii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#onychoteuthis_banksi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#autres_octopodes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#onychoteuthis_banksi">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Onychoteuthis banksi</rdfs:label>
+    <rdfs:label xml:lang="en">Onychoteuthis banksi</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taonius_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Taonius sp</rdfs:label>
+    <rdfs:label xml:lang="en">Taonius sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#animal">
+    <rdfs:label xml:lang="es">Animal</rdfs:label>
+    <rdfs:label xml:lang="fr">Animal</rdfs:label>
+    <rdfs:label xml:lang="en">Animal</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_squids">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Und Squids</rdfs:label>
+    <rdfs:label xml:lang="en">Und Squids</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#crab_larvae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">crab larvae</rdfs:label>
+    <rdfs:label xml:lang="en">crab larvae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argyropelecus_gigas">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Argyropelecus gigas</rdfs:label>
+    <rdfs:label xml:lang="en">Argyropelecus gigas</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sarda_orientalis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Sarda orientalis</rdfs:label>
+    <rdfs:label xml:lang="en">Sarda orientalis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#abraliopsis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Abraliopsis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Abraliopsis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmus_argenteus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Diretmus argenteus</rdfs:label>
+    <rdfs:label xml:lang="en">Diretmus argenteus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#nealotus_tripes">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Nealotus tripes</rdfs:label>
+    <rdfs:label xml:lang="en">Nealotus tripes</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephidae_spp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Ommastrephidae spp</rdfs:label>
+    <rdfs:label xml:lang="en">Ommastrephidae spp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#amphitretus_pelagicus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Amphitretus pelagicus</rdfs:label>
+    <rdfs:label xml:lang="en">Amphitretus pelagicus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Platyscelus ovoides</rdfs:label>
+    <rdfs:label xml:lang="en">Platyscelus ovoides</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#coryphaena_equiselis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Coryphaena equiselis</rdfs:label>
+    <rdfs:label xml:lang="en">Coryphaena equiselis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#chiroteuthis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Chiroteuthis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Chiroteuthis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ostracion_cubicus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Ostracion cubicus</rdfs:label>
+    <rdfs:label xml:lang="en">Ostracion cubicus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lysiosquilla_tredecimendata">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Lysiosquilla tredecimendata</rdfs:label>
+    <rdfs:label xml:lang="en">Lysiosquilla tredecimendata</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cranchia_scabra">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Cranchia scabra</rdfs:label>
+    <rdfs:label xml:lang="en">Cranchia scabra</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#moroteuthis_lonnbergii">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Moroteuthis lonnbergii</rdfs:label>
+    <rdfs:label xml:lang="en">Moroteuthis lonnbergii</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#odontodactylus_scyllarus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Odontodactylus scyllarus</rdfs:label>
+    <rdfs:label xml:lang="en">Odontodactylus scyllarus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pelagic_octopoda_sp1">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">pelagic octopoda sp1</rdfs:label>
+    <rdfs:label xml:lang="en">pelagic octopoda sp1</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoplometopus_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Enoplometopus sp</rdfs:label>
+    <rdfs:label xml:lang="en">Enoplometopus sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thyrsitoides_marleyi">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Thyrsitoides marleyi</rdfs:label>
+    <rdfs:label xml:lang="en">Thyrsitoides marleyi</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#funchalia_taaningi">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <rdfs:label xml:lang="fr">Funchalia taaningi</rdfs:label>
+    <rdfs:label xml:lang="en">Funchalia taaningi</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#charybdis_smithii">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Charybdis smithii</rdfs:label>
+    <rdfs:label xml:lang="en">Charybdis smithii</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ancistrocheirus_lesueuri">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Ancistrocheirus lesueuri</rdfs:label>
+    <rdfs:label xml:lang="en">Ancistrocheirus lesueuri</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macrosoma">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Decapterus macrosoma</rdfs:label>
+    <rdfs:label xml:lang="en">Decapterus macrosoma</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj">
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ostracion_cubicus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phrosina_semilunata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cavolinia_sp"/>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_côtiers"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_perspicillatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myctophidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#unknown_shrimps"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oxyporhamphus_micropterus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_lucidus"/>
+    <rdfs:label xml:lang="fr">Listao</rdfs:label>
+    <rdfs:label xml:lang="en">Skipjack tuna</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oegopsida_ni">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Oegopsida NI</rdfs:label>
+    <rdfs:label xml:lang="en">Oegopsida NI</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Sthenoteuthis oualaniensis</rdfs:label>
+    <rdfs:label xml:lang="en">Sthenoteuthis oualaniensis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ctenopteryx_sicula">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Ctenopteryx sicula</rdfs:label>
+    <rdfs:label xml:lang="en">Ctenopteryx sicula</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#haliphron_atlanticus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Haliphron atlanticus</rdfs:label>
+    <rdfs:label xml:lang="en">Haliphron atlanticus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sargocentron_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Sargocentron sp</rdfs:label>
+    <rdfs:label xml:lang="en">Sargocentron sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pelagic_octopoda_sp2">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">pelagic octopoda sp2</rdfs:label>
+    <rdfs:label xml:lang="en">pelagic octopoda sp2</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#exocoetus_volitans">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Exocoetus volitans</rdfs:label>
+    <rdfs:label xml:lang="en">Exocoetus volitans</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#symbolophorus_evermanni">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Symbolophorus evermanni</rdfs:label>
+    <rdfs:label xml:lang="en">Symbolophorus evermanni</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phrosina_semilunata">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Phrosina semilunata</rdfs:label>
+    <rdfs:label xml:lang="en">Phrosina semilunata</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#octopoteuthis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Octopoteuthis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Octopoteuthis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo">
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#psenes_arafurensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#requins"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lampadena_luminosa"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#symbolophorus_evermanni"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thysanoteuthis_rhombus"/>
+    <rdfs:label xml:lang="fr">Espadon</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taonius_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ancistrocheirus_lesueuri"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelarchus_analis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#moroteuthis_lonnbergii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#coryphaena_equiselis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#electrona_risso"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_meleagroteuthis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephidae_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_squids"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#chiroteuthis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestrolepis_intermedia"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#other"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#funchalia_taaningi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmoides_parini"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#physiculus_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombridae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephes_bartrami"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#auxis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#crab_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoploteuthidae_sp1"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepis_atlantica"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombrolabrax_heterolepis"/>
+    <rdfs:label xml:lang="en">Swordfish</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_hoylei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diodon_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#unknown_shrimps"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#canthidermis_maculatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sanguinea"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#exocoetus_volitans"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#spirula_spirula"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pholidoteuthis_boschmai"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelosaurus_hoedti"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thyrsitoides_marleyi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmus_argenteus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#charybdis_smithii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lagocephalus_lagocephalus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#gempylus_serpens"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oplophorus_typus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#omosudis_lowei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brama_brama"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#alepisaurus_ferox"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthidae_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#stromateidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oxyporhamphus_micropterus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#mastigoteuthis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Mastigoteuthis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Mastigoteuthis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phronima_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Phronima sp</rdfs:label>
+    <rdfs:label xml:lang="en">Phronima sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish_larvae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Fish larvae</rdfs:label>
+    <rdfs:label xml:lang="en">Fish larvae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#marine_animal">
+    <rdfs:subClassOf rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#animal"/>
+    <rdfs:label xml:lang="fr">Animal marin</rdfs:label>
+    <rdfs:label xml:lang="en">Marine animal</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_perspicillatus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Diaphus perspicillatus</rdfs:label>
+    <rdfs:label xml:lang="en">Diaphus perspicillatus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cheilopogon_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Cheilopogon sp</rdfs:label>
+    <rdfs:label xml:lang="en">Cheilopogon sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#stromateidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Stromateidae</rdfs:label>
+    <rdfs:label xml:lang="en">Stromateidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Ornithoteuthis volatilis</rdfs:label>
+    <rdfs:label xml:lang="en">Ornithoteuthis volatilis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#physiculus_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Physiculus sp</rdfs:label>
+    <rdfs:label xml:lang="en">Physiculus sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sanguinea">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Acanthephyra sanguinea</rdfs:label>
+    <rdfs:label xml:lang="en">Acanthephyra sanguinea</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cavolinia_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Cavolinia sp</rdfs:label>
+    <rdfs:label xml:lang="en">Cavolinia sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#neoanchisquilla_tuberculata">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Neoanchisquilla tuberculata</rdfs:label>
+    <rdfs:label xml:lang="en">Neoanchisquilla tuberculata</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#chiasmodon_niger">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Chiasmodon niger</rdfs:label>
+    <rdfs:label xml:lang="en">Chiasmodon niger</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#katsuwonus_pelamis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Katsuwonus pelamis</rdfs:label>
+    <rdfs:label xml:lang="en">Katsuwonus pelamis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombridae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Scombridae</rdfs:label>
+    <rdfs:label xml:lang="en">Scombridae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pholidoteuthis_boschmai">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Pholidoteuthis boschmai</rdfs:label>
+    <rdfs:label xml:lang="en">Pholidoteuthis boschmai</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thysanoteuthis_rhombus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Thysanoteuthis rhombus</rdfs:label>
+    <rdfs:label xml:lang="en">Thysanoteuthis rhombus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#requins">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">requins</rdfs:label>
+    <rdfs:label xml:lang="en">requins</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet">
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#platyscelus_ovoides"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#phrosina_semilunata"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestidiops_similis"/>
+    <rdfs:label xml:lang="en">Bigeye tuna</rdfs:label>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#canthidermis_maculatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_squids"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_large"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ctenopteryx_sicula"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macrosoma"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoploteuthidae_sp1"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ornithoteuthis_volatilis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#nealotus_tripes"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#charybdis_smithii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#onychoteuthis_banksi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#omosudis_lowei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#crab_larvae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vegetal"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ommastrephidae_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#spirula_spirula"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#funchalia_taaningi"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmus_argenteus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#mastigoteuthis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_spp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelosaurus_hoedti"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vinciguerria_nimbaria"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#auxis_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sthenoteuthis_oualaniensis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taonius_sp"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thysanoteuthis_rhombus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#other"/>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myctophidae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_perspicillatus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#alepisaurus_ferox"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestrolepis_intermedia"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#gempylus_serpens"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macarellus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#exocoetus_volitans"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oplophorus_typus"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepididae"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#japetella_diaphana"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#katsuwonus_pelamis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#unknown_shrimps"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#moroteuthis_lonnbergii"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelarchus_analis"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmoides_parini"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepis_atlantica"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_hoylei"/>
+    <ecoscope:is_predator_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#walvitethis_rancureli"/>
+    <rdfs:label xml:lang="fr">Patudo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_large">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Juveniles large</rdfs:label>
+    <rdfs:label xml:lang="en">Juveniles large</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#nansenia_macrolepis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Nansenia macrolepis</rdfs:label>
+    <rdfs:label xml:lang="en">Nansenia macrolepis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#pterycombus_petersii">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Pterycombus petersii</rdfs:label>
+    <rdfs:label xml:lang="en">Pterycombus petersii</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#carapidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Carapidae</rdfs:label>
+    <rdfs:label xml:lang="en">Carapidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#juveniles_côtiers">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Juveniles côtiers</rdfs:label>
+    <rdfs:label xml:lang="en">Juveniles côtiers</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#hoplosthetus_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Hoplosthetus sp</rdfs:label>
+    <rdfs:label xml:lang="en">Hoplosthetus sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#caranx_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Caranx sp</rdfs:label>
+    <rdfs:label xml:lang="en">Caranx sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vegetal">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">vegetal</rdfs:label>
+    <rdfs:label xml:lang="en">vegetal</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#monacanthidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Monacanthidae</rdfs:label>
+    <rdfs:label xml:lang="en">Monacanthidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#tremoctopus_violaceus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Tremoctopus violaceus</rdfs:label>
+    <rdfs:label xml:lang="en">Tremoctopus violaceus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#und_fish">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Und Fish</rdfs:label>
+    <rdfs:label xml:lang="en">Und Fish</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diretmoides_parini">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <rdfs:label xml:lang="fr">Diretmoides parini</rdfs:label>
+    <rdfs:label xml:lang="en">Diretmoides parini</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish">
+    <rdfs:subClassOf rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#marine_animal"/>
+    <rdfs:label xml:lang="es">Peces</rdfs:label>
+    <rdfs:label xml:lang="fr">Poisson</rdfs:label>
+    <rdfs:label xml:lang="en">Fish</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_macarellus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Decapterus macarellus</rdfs:label>
+    <rdfs:label xml:lang="en">Decapterus macarellus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scombrolabrax_heterolepis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Scombrolabrax heterolepis</rdfs:label>
+    <rdfs:label xml:lang="en">Scombrolabrax heterolepis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#cubiceps_pauciradiatus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Cubiceps pauciradiatus</rdfs:label>
+    <rdfs:label xml:lang="en">Cubiceps pauciradiatus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#auxis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Auxis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Auxis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brama_brama">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Brama brama</rdfs:label>
+    <rdfs:label xml:lang="en">Brama brama</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oplophorus_typus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Oplophorus typus</rdfs:label>
+    <rdfs:label xml:lang="en">Oplophorus typus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#grimalditeuthis_bonplandi">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Grimalditeuthis bonplandi</rdfs:label>
+    <rdfs:label xml:lang="en">Grimalditeuthis bonplandi</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#paralepididae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <rdfs:label xml:lang="fr">Paralepididae</rdfs:label>
+    <rdfs:label xml:lang="en">Paralepididae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lampadena_luminosa">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Lampadena luminosa</rdfs:label>
+    <rdfs:label xml:lang="en">Lampadena luminosa</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lagocephalus_lagocephalus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Lagocephalus lagocephalus</rdfs:label>
+    <rdfs:label xml:lang="en">Lagocephalus lagocephalus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argentinidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Argentinidae</rdfs:label>
+    <rdfs:label xml:lang="en">Argentinidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#oxyporhamphus_micropterus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Oxyporhamphus micropterus</rdfs:label>
+    <rdfs:label xml:lang="en">Oxyporhamphus micropterus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#omosudis_lowei">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Omosudis lowei</rdfs:label>
+    <rdfs:label xml:lang="en">Omosudis lowei</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#gempylus_serpens">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Gempylus serpens</rdfs:label>
+    <rdfs:label xml:lang="en">Gempylus serpens</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#carinaria_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Carinaria sp</rdfs:label>
+    <rdfs:label xml:lang="en">Carinaria sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_hoylei">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <rdfs:label xml:lang="fr">Histioteuthis hoylei</rdfs:label>
+    <rdfs:label xml:lang="en">Histioteuthis hoylei</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scomberesox_saurus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Scomberesox saurus</rdfs:label>
+    <rdfs:label xml:lang="en">Scomberesox saurus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestrolepis_intermedia">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Lestrolepis intermedia</rdfs:label>
+    <rdfs:label xml:lang="en">Lestrolepis intermedia</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#taaningia_danae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Taaningia danae</rdfs:label>
+    <rdfs:label xml:lang="en">Taaningia danae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_spp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Diaphus spp</rdfs:label>
+    <rdfs:label xml:lang="en">Diaphus spp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#natosquilla_investigatoris">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Natosquilla investigatoris</rdfs:label>
+    <rdfs:label xml:lang="en">Natosquilla investigatoris</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#hyporhamphus_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Hyporhamphus sp</rdfs:label>
+    <rdfs:label xml:lang="en">Hyporhamphus sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diodon_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Diodon sp</rdfs:label>
+    <rdfs:label xml:lang="en">Diodon sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argonauta_argo">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Argonauta argo</rdfs:label>
+    <rdfs:label xml:lang="en">Argonauta argo</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#rynchonerella_angelini">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Rynchonerella angelini</rdfs:label>
+    <rdfs:label xml:lang="en">Rynchonerella angelini</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#psenes_arafurensis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Psenes arafurensis</rdfs:label>
+    <rdfs:label xml:lang="en">Psenes arafurensis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#vinciguerria_nimbaria">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Vinciguerria nimbaria</rdfs:label>
+    <rdfs:label xml:lang="en">Vinciguerria nimbaria</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthis_meleagroteuthis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">Histioteuthis meleagroteuthis</rdfs:label>
+    <rdfs:label xml:lang="en">Histioteuthis meleagroteuthis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#lestidiops_similis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Lestidiops similis</rdfs:label>
+    <rdfs:label xml:lang="en">Lestidiops similis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scorpaenidae">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Scorpaenidae</rdfs:label>
+    <rdfs:label xml:lang="en">Scorpaenidae</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#sternoptyx_diaphana">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Sternoptyx diaphana</rdfs:label>
+    <rdfs:label xml:lang="en">Sternoptyx diaphana</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#argyropelecus_sladeni">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Argyropelecus sladeni</rdfs:label>
+    <rdfs:label xml:lang="en">Argyropelecus sladeni</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#japetella_diaphana">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Japetella diaphana</rdfs:label>
+    <rdfs:label xml:lang="en">Japetella diaphana</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#parapronoe_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Parapronoe sp</rdfs:label>
+    <rdfs:label xml:lang="en">Parapronoe sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#acanthephyra_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Acanthephyra sp</rdfs:label>
+    <rdfs:label xml:lang="en">Acanthephyra sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#scopelosaurus_hoedti">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Scopelosaurus hoedti</rdfs:label>
+    <rdfs:label xml:lang="en">Scopelosaurus hoedti</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#walvitethis_rancureli">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Walvitethis rancureli</rdfs:label>
+    <rdfs:label xml:lang="en">Walvitethis rancureli</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#naso_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Naso sp</rdfs:label>
+    <rdfs:label xml:lang="en">Naso sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#diaphus_lucidus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Diaphus lucidus</rdfs:label>
+    <rdfs:label xml:lang="en">Diaphus lucidus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#decapterus_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Decapterus sp</rdfs:label>
+    <rdfs:label xml:lang="en">Decapterus sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#brachysculus_crusculum">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Brachysculus crusculum</rdfs:label>
+    <rdfs:label xml:lang="en">Brachysculus crusculum</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#histioteuthidae_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <rdfs:label xml:lang="fr">histioteuthidae sp</rdfs:label>
+    <rdfs:label xml:lang="en">histioteuthidae sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#spirula_spirula">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Spirula spirula</rdfs:label>
+    <rdfs:label xml:lang="en">Spirula spirula</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#enoploteuthidae_sp1">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <rdfs:label xml:lang="fr">Enoploteuthidae sp1</rdfs:label>
+    <rdfs:label xml:lang="en">Enoploteuthidae sp1</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#myripristis_sp">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Myripristis sp</rdfs:label>
+    <rdfs:label xml:lang="en">Myripristis sp</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#thyrsites_atun">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Thyrsites atun</rdfs:label>
+    <rdfs:label xml:lang="en">Thyrsites atun</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#autres_octopodes">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">autres octopodes</rdfs:label>
+    <rdfs:label xml:lang="en">autres octopodes</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#dactyloptena_orientalis">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Dactyloptena orientalis</rdfs:label>
+    <rdfs:label xml:lang="en">Dactyloptena orientalis</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#other">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">other</rdfs:label>
+    <rdfs:label xml:lang="en">other</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#unknown_shrimps">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#skj"/>
+    <rdfs:label xml:lang="fr">Unknown shrimps</rdfs:label>
+    <rdfs:label xml:lang="en">Unknown shrimps</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#salpes">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">salpes</rdfs:label>
+    <rdfs:label xml:lang="en">salpes</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#anoplogaster_cornuta">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <rdfs:label xml:lang="fr">Anoplogaster cornuta</rdfs:label>
+    <rdfs:label xml:lang="en">Anoplogaster cornuta</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#canthidermis_maculatus">
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#ale"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#swo"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#bet"/>
+    <ecoscope:is_prey_of rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#yft"/>
+    <rdfs:label xml:lang="fr">Canthidermis maculatus</rdfs:label>
+    <rdfs:label xml:lang="en">Canthidermis maculatus</rdfs:label>
+    <rdf:type rdf:resource="http://localhost:8179/EcoscopeKB/ontologies/stomac.owl#fish"/>
+  </rdf:Description>
+</rdf:RDF>
