@@ -28,6 +28,10 @@
             </result>
         </action>
         
+        <action name="testLibrary">
+             <result>/js/devLibrary/index.jsp</result>
+        </action>
+        
         <action name="ShowWebLinks" class="org.ird.crh.atlas.action.ShowSimplePage">
             <result>/webpages/templates/show_web_links.jsp</result>
         </action>
